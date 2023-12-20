@@ -77,6 +77,14 @@ body:has(.card[data-color="green"]:hover) {
     .cta-text {
         @apply text-black-500 font-extrabold flex-1 text-3xl max-md:text-center;
     }
+
+    .resume {
+        @apply w-full h-20 flex items-center md:flex-row flex-col sm:mt-16 mt-8 gap-7;
+    }
+
+    .resume-text {
+        @apply text-black-500 font-extrabold flex-1 text-3xl max-md:text-center;
+    }
 }
 
 .glassmorphism {
@@ -140,6 +148,10 @@ body:has(.card[data-color="green"]:hover) {
 
 .block-container .btn-back-black {
     background: linear-gradient(135deg, #0a1647 -20%, #e4e7e4 120%);
+}
+
+.block-container .btn-back-black {
+    background: linear-gradient(135deg, #E6E6E6 -20%, #F0EEED 120%);
 }
 
 .block-container .btn-front {
